@@ -50,12 +50,6 @@
 
 		<header id="header">
 			<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="A logo with scaffolding being designed." id="header-logo"><br>
-			<img src="<?php bloginfo('template_directory'); ?>/img/divide_long.png"><br>
-			<h1>Something&#8217;s<br>coming&hellip;</h1><br>
-			<img src="<?php bloginfo('template_directory'); ?>/img/divide_short.png"><br>
-			<h2 class="description">June 8-10, 2015</h2><br>
-			<?php if(function_exists('mc4wp_form')) { 
-				mc4wp_form();
-			} ?>
+			
 		</header>
 
