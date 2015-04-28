@@ -26,5 +26,13 @@
 		</div>
 	</div>
 </nav>
+<section class="bg-squares" id="what">
+	<div class="gutter">
+		
+	</div>
+	<div class="content">
+		
+	</div>
+</section>
 
 <?php get_footer(); ?>

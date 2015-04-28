@@ -180,6 +180,9 @@ body{
 .bg-yellow{
 	background:#fee852;
 }
+.bg-squares{
+	background:url('img/bg-squares.png') center center repeat;
+}
 .container{
 	margin:0 auto;
 	padding:0 1em;
@@ -336,6 +339,9 @@ NAV
 
 
 */
+nav{
+	display: none;
+}
 #nav .container{
 	text-align: center;
 }
@@ -351,6 +357,7 @@ NAV
 
 @media screen and (min-width:640px){
 	nav {
+		display: block;
 		position: relative;
 		top: -.33em;
 	}
@@ -372,6 +379,14 @@ NAV
 	}
 }
 
+
+/*
+	
+	
+WHAT
+
+
+*/
 
 
 
