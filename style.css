@@ -142,8 +142,10 @@ a { text-decoration: none; color: black; }
 
 SITE
 	
-
-
+yellow:		#fee852
+unblack:		#2c2530
+white:		#ffffff
+brown:		#d0a401
 
 
 */
@@ -156,132 +158,24 @@ SITE
     src: url(fonts/LeagueGothic-Regular.otf);
 }
 
+.sr{
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
 html{
-	background-color:#F0F0F0;
-	background-image: url('img/hello.png'),url('img/world.png'),url('img/bg.png');
-	background-position: top center, bottom center, center center;
-	background-repeat: no-repeat,no-repeat,repeat;
-	background-size: 77% auto,77% auto, auto;
 }
 html,body{
-	height:100vh;
 }
 body{
-	background:none;
-	font-family: 'Nevis', sans-serif;
-	color:#2C2530;
-	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 	-webkit-font-smoothing:antialiased;
 }
-#page-wrap{
-	display: table;
-	margin:0 auto;
-}
-#header{
-	height:100vh;
-	display: table-cell;
-	vertical-align: middle;
-}
-#header-logo{
-	width:80px;
-	height:auto;
-}
-#header h1{
-	line-height: 1;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-size: 1.5em;
-	font-weight: bold;
-	position:relative;
-	top:.75em;
-	margin: -.45em auto 0;
-}
-#header h2{
-	font-size: 1em;
-	color: #767077;
-	font-family: 'Nevis',sans-serif;
-	margin: .25em auto;
-}
-@media screen and (min-width:768px){
-	#header h1{
-		top:.5em;
-		font-size: 2.25em;
-		margin: -.35em auto 0;
-	}
-	#header h2{
-
-	}
-}
-
-input{
-	width:250px;
-	margin:.25em;
-	padding:.5em 0;
-	font-size: .75em;
-	font-family: 'Nevis',sans-serif;
-	text-align: center;
-	outline: none;
-	-webkit-appearance: none;
-}
-
-#mc4wp_email{
-	color:#FFF;
-	text-transform: uppercase;
-	height:1.25em;
-	border:1px solid #D0CED7;
-	background:#D0CED7;
-}
-#mc4wp_email:focus{
-	border:1px solid #FEE852;
-}
-
-#mc4wp_email::-webkit-input-placeholder { /* WebKit browsers */
-    color:#FFF;
-}
-#mc4wp_email:focus::-webkit-input-placeholder { /* WebKit browsers */
-    color:#D0CED7;
-}
-#mc4wp_email:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:#FFF;
-   opacity:  1;
-}
-#mc4wp_email:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:#D0CED7;
-   opacity:  0;
-}
-#mc4wp_email::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:#FFF;
-   opacity:  1;
-}
-#mc4wp_email:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:#D0CED7;
-   opacity:  0;
-}
-#mc4wp_email:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:#FFF;
-}
-#mc4wp_email:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:#D0CED7;
-}
-
-input#send{
-	color:#fff;
-	height:2.5em;
-	border:none;
-	font-size: .75em;
-	line-height: 1em;
-	background:#FEE852;
-	text-transform: uppercase;
-	transition: background .27s;
-	-o-transition: background .27s;
-	-moz-transition: background .27s;
-	-webkit-transition: background .27s;
-}
-input#send:hover{
-	cursor: pointer;
-}
-
-
 
 
 
