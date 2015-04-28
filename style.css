@@ -174,6 +174,7 @@ body{
 	text-transform: uppercase;
 	-webkit-font-smoothing:antialiased;
 	overflow-x: hidden;
+	color:#2c2530;
 }
 
 .bg-yellow{
@@ -183,9 +184,27 @@ body{
 	margin:0 auto;
 	padding:0 1em;
 	width:100%;
-	max-width:32em;
+	max-width:30em;
 }
-
+.container:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+@media screen and (min-width:640px){
+	.container{
+		padding:0;
+	}
+	.gutter{
+		width:100px;
+		float:left;
+		text-align: left;
+	}
+	.content{
+		width:475px;
+		float:right;
+	}
+}
 /*
 	
 
@@ -200,6 +219,11 @@ HERO
 	height:20em;
 	padding: 5em 0;
 	text-align: center;
+}
+
+#hero-logo{
+	width:60px;
+	height:auto;
 }
 
 #hero h1{
@@ -217,9 +241,93 @@ HERO
 	text-rendering: optimizeLegibility;
 }
 
+#hero-info{
+	width:10em;
+	float: right;
+	border:2px solid #2c2530;
+	height: 1.5em;
+	position: relative;
+	top: -1.66em;
+}
 
+.hero-detail{
+	height:100%;
+	display: inline-block;
+	font-size: .5em;
+	line-height: 2.5em;
+	padding: 0 1em;
+}
+#hero-city{
+	float: left;	
+	width:64%;
+	border-right:2px solid #2c2530;
+}
 
+#hero-dates{
+	float: right;
+	width:34%;
+}
 
+#hero h2{
+	clear:both;
+	font-size: 1em;
+	font-size:5vw;
+	position: relative;
+	top:-1.5em;
+	height: 3.25em;
+	line-height: 1.5em;
+	padding: .25em 0 0 0;
+	margin: 0 0 0 1.5vw;
+	text-align: left;
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 30%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,rgba(255,255,255,1)), color-stop(10%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 30%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 30%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 30%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 30%); /* W3C */
+}
+
+@media screen and (min-width:400px){
+	#hero h2{
+		font-size:.75em;
+	}
+}
+@media screen and (min-width:475px){
+	#hero h1{
+		font-size:5em;
+		background:url('img/accent-lines.png') right 25% no-repeat,url('img/accent-underscore.png') 2% bottom no-repeat;
+		background-size: auto 25%, auto auto;
+	}
+}
+@media screen and (min-width:640px){
+	#hero img{
+		position: relative;
+		top: 1.15em;
+	}
+	#hero-info{
+		width:9.5em;
+		height: 2em;
+		position: relative;
+		top: -2.25em;
+	}
+
+	.hero-detail{
+		line-height: 1.25em;
+	}
+	#hero-city{
+		width:75%;
+		padding-top: 1.25em;
+	}
+	
+	#hero-dates{
+		width:24%;
+		position: relative;
+		top: .66em;
+	}
+	#hero h2{
+		top:-2.5em;
+	}
+}
 
 
 
