@@ -15,5 +15,16 @@
 		<h2>A new design conference for the Mac+iOS community</h2>
 	</div>
 </section>
+<nav>
+	<div class="container">
+		<div class="content">
+			<a class="nav-button" href="#what">What</a>
+			<a class="nav-button" href="#presenters">Presenters</a>
+			<a class="nav-button" href="#deets">The Deets</a>
+			<a class="nav-button" href="#register">Register</a>
+			<a class="nav-button" href="#about">About Us</a>
+		</div>
+	</div>
+</nav>
 
 <?php get_footer(); ?>

@@ -329,5 +329,58 @@ HERO
 	}
 }
 
+/*
+	
+	
+NAV
+
+
+*/
+#nav .container{
+	text-align: center;
+}
+.nav-button{
+	width:4em;
+	display: inline-block;
+	color:#2c2530;
+	font-size: .5em;
+	border:2px solid #2c2530;
+	text-align: center;
+	text-decoration: none;
+}
+
+@media screen and (min-width:640px){
+	nav {
+		position: relative;
+		top: -.33em;
+	}
+	a.nav-button{
+		background:none;
+		position: relative;
+		left:7px;
+		line-height: 40px;
+		width:80px;
+		height:40px;
+		margin: 0 13px 0 0;
+	}
+	a.nav-button:hover{
+		color:#fff;
+		background:#d0a401;
+	}
+	a.nav-button:last-of-type{
+		margin: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
