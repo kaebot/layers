@@ -27,11 +27,16 @@
 	</div>
 </nav>
 <section class="bg-squares" id="what">
-	<div class="gutter">
-		
-	</div>
-	<div class="content">
-		
+	<div class="container">
+		<div class="gutter">
+			<h2>01</h2>
+			<h1>What</h1>
+		</div>
+		<div class="content">
+			<p>A three-day conference to talk about design,<br>celebrate our industry,<br>and eat snacks.</p>
+			<p>Like a party,<br>but for learning.</p>
+		</div>
+		<a href="#register">Enough Already, Sign Me Up</a>		
 	</div>
 </section>
 
