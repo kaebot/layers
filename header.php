@@ -36,6 +36,7 @@
 	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/favicon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7392354/732768/css/fonts.css" />
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 

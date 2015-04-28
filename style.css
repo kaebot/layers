@@ -139,7 +139,7 @@ white:		#ffffff
 brown:		#d0a401
 
 
-*/
+
 @font-face {
     font-family: Nevis;
     src: url(fonts/nevis.ttf);
@@ -148,7 +148,7 @@ brown:		#d0a401
     font-family: LG;
     src: url(fonts/LeagueGothic-Regular.otf);
 }
-
+*/
 *{
 	box-sizing: border-box;
 }
@@ -203,13 +203,18 @@ HERO
 }
 
 #hero h1{
+	background:url('img/accent-lines.png') right 25% no-repeat;
+	background-size: auto 25%;
 	width:100%;
 	max-width: 30em;
-	font-weight:700;
+	font-family: 'Verlag A', 'Verlag B','Oswald', sans-serif;
+	font-weight:800;
+	font-style: normal;
 	font-size: 2em;
-	font-size:25vw;
+	font-size:20vw;
 	text-align: left;
 	color:#FFF;
+	text-rendering: optimizeLegibility;
 }
 
 
