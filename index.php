@@ -40,4 +40,16 @@
 	</div>
 </section>
 
+<section class="bg-yellow bg-brown-dots" id="presenters">
+	<div class="container">
+		<div class="gutter">
+			<h2>02</h2>
+			<h1>Presenters</h1>
+		</div>
+		<div class="content">
+			<h3>Seriously, look at these people</h3>
+		</div>
+	</div>
+</section>
+
 <?php get_footer(); ?>

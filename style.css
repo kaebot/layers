@@ -178,10 +178,17 @@ body{
 }
 
 .bg-yellow{
-	background:#fee852;
+	background-color:#fee852;
 }
 .bg-squares{
 	background:url('img/bg-squares.png') center top repeat;
+}
+.bg-brown-dots{
+	background-image:url('img/bg-brown-dots.png');
+	background-size: auto 7.5px;
+}
+section{
+	padding:3em 0;
 }
 .container{
 	margin:0 auto;
@@ -456,9 +463,43 @@ WHAT
 	}
 }
 
+/*
+	
+	
+PRESENTERS
 
 
+*/
+#presenters .container{
+	background: -moz-linear-gradient(top, rgba(254,232,82,1) 30%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 30%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,rgba(254,232,82,1)), color-stop(20%,rgba(255,255,255,0)), color-stop(20%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(254,232,82,1) 30%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 30%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(254,232,82,1) 30%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 30%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(254,232,82,1) 30%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 30%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(254,232,82,1) 30%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 30%); /* W3C */
+}
+/*
+#presenters .container{
+	padding:3em 0;
+}
 
+#presenters .gutter,#presenters .content{
+	height:100%;
+	padding:1em;
+	width:285px;
+}
+#presenters .gutter h2{
+	color:#fff;
+}
+#presenters .gutter h3{
+	color:#d0a401;
+	padding: 1em 0;
+	line-height: 1.25em;
+}
+#presenters .content{
+	border:2px solid #d0a401;
+}
+*/
 
 
 
