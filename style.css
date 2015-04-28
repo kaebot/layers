@@ -216,8 +216,11 @@ a{
 		text-align: left;
 	}
 	.content{
-		width:475px;
+		width:370px;
 		float:right;
+	}
+	.top.content{
+		width:475px;
 	}
 }
 /*
@@ -441,7 +444,7 @@ WHAT
 
 @media screen and (min-width:640px){
 	#what{
-		margin:-1.25em 0 0 0;
+		margin:-1.5em 0 0 0;
 	}
 	#what .container{
 		background: -moz-linear-gradient(top, rgba(254,232,82,1) 30%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 30%); /* FF3.6+ */

@@ -5,7 +5,7 @@
 		<div class="gutter">
 			<img id="hero-logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="A logo with scaffolding being designed.">
 		</div>
-		<div class="content">
+		<div class="top content">
 		<h1>Layers</h1>
 		<div id="hero-info">
 			<p class="hero-detail" id="hero-city">San Francisco, CA</p>
@@ -17,7 +17,7 @@
 </section>
 <nav>
 	<div class="container">
-		<div class="content">
+		<div class="top content">
 			<a class="nav-button" href="#what">What</a>
 			<a class="nav-button" href="#presenters">Presenters</a>
 			<a class="nav-button" href="#deets">The Deets</a>
