@@ -35,6 +35,7 @@
 	<!--[if IE]><link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico"><![endif]-->
 	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/favicon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
@@ -48,8 +49,6 @@
 	
 	<div id="page-wrap">
 
-		<header id="header">
-			<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="A logo with scaffolding being designed." id="header-logo"><br>
-			
+		<header id="header">			
 		</header>
 
