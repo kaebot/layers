@@ -102,13 +102,44 @@
 </section>
 <!-- register -->
 <section class="bg-dark-purple bg-purple-dots" id="register">
-	<div class="bg-dark-purple container">
+	<div class="container">
 		<div class="gutter">
 			<h2>04</h2>
 			<h1>Registration</h1>
+		</div>
+		<div class="bg-yellow content">
 			<tito-widget event="opening-night-llc/layersclub"></tito-widget>
 		</div>
 	</div>
 </section>
-
+<!-- about -->
+<section class="bg-dark-purple" id="about">
+	<div class="container">
+		<div class="gutter">
+			<h2>05</h2>
+			<h1>About</h1>
+		</div>
+		<div class="content">
+			<h3>Brought to you by<br>Jessie, Elaine & Adobe</h3>
+			<div class="presenter">
+				<div class="portrait">
+					<img src="<?php bloginfo('template_directory'); ?>/img/hs-maja.jpg" alt="A portrait of Maja.">
+				</div>
+				<div class="bio">
+					<h1>Jessie Char</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+			<div class="presenter">
+				<div class="portrait">
+					<img src="<?php bloginfo('template_directory'); ?>/img/hs-maja.jpg" alt="A portrait of Maja.">
+				</div>
+				<div class="bio">
+					<h1>Elaine Pow</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <?php get_footer(); ?>

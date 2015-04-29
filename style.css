@@ -661,16 +661,152 @@ REGISTER
 #register{
 	color:#fff;
 }
+#register .container{
+	background: -moz-linear-gradient(top, rgba(27,20,31,1) 30%, rgba(255,255,255,0) 30%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,rgba(27,20,31,1)), color-stop(30%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(27,20,31,1) 30%,rgba(255,255,255,0) 30%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(27,20,31,1) 30%,rgba(255,255,255,0) 30%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(27,20,31,1) 30%,rgba(255,255,255,0) 30%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(27,20,31,1) 30%,rgba(255,255,255,0) 30%); /* W3C */
+}
+#register .gutter{
+	width: 100%;
+}
 #register h2{
 	color:#fee852;	
 }
 #register h1{
 	color:#fff;	
 }
+#register .content{
+	padding: 1em;
+	color: #2c2530;
+}
+#register ul{
+	list-style-type: none;
+}
+.tito-ticket-description{
+	font-size: .75em;
+	text-transform: none;
+}
+.tito-ticket-price-quantity-wrapper{
+	margin:1em 0;
+	text-align: center;
+}
+.tito-ticket-price,.tito-ticket-quantity{
+	display: inline-block;
+}
+.tito-submit,input{
+	-webkit-appearance: none;
+}
+input{
+	font-size: 1em;
+	width: 2em;
+	padding: 0 .5em;
+	border: 2px solid #2c2530;
+	border-radius:0px;
+}
+.tito-submit{
+	width: 100%;
+	-webkit-appearance: none;
+	font-size: 1em;
+	border: 2px solid #2c2530;
+	background: #fee852;
+	padding: .25em;
+	text-transform: uppercase;
+	font-family: 'Verlag A','Verlag B';
+}
+.tito-submit:hover{
+	cursor:pointer;
+	background: #FFF;
+}
+span.tito-badge-link{
+	font-size: .5em;
+}
+
+/*
+	
+	
+ABOUT
 
 
+*/
 
 
+#about .content{
+	border:2px solid #fee852;
+	width: 100%;
+	max-width: 374px;
+	padding: 1em;
+	margin:0 auto;
+	color:#fff;
+}
+#about .content h1{
+	color:#fee852;
+}
+#about .content h3{
+	margin: 0 0 1em 0;
+}
+#about .portrait,#about .portrait img{
+	width:100%;
+}
+#about h1{
+	color:#d0a401;
+}
+#about h2{
+	color:#fff;
+}
+#about h2,.presenter p{
+	text-transform: none;
+	font-size: .75em;
+}
+@media screen and (min-width:640px){
+	#about .content{
+		padding: .5em 1em;	
+	}
+	.presenter{
+		width: 400px;
+		right: 70px;
+		position: relative;
+		margin: 0 0 1em 0;
+	}
+	.presenter:after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+	#about .portrait{
+		width:5em;
+		height:5em;
+		float:left;
+	}
+	#about .portrait img{
+		border:2px solid #fee852;
+	}
+	#about .bio{
+		width: 70%;
+		float: right;
+	}
+	#about .bio p{
+		position: relative;
+		top: -.75em;
+	}
+	.presenter.alt{
+		width: 390px;
+		right: 0;
+	}
+	#about .alt .portrait{
+		width:5em;
+		height:5em;
+		float:right;
+	}
+	#about .alt .bio{
+		width: 70%;
+		float: left;
+		background:#fee852;
+		text-align: right;
+	}
+}
 
 
 
