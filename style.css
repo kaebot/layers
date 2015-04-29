@@ -193,6 +193,11 @@ body{
 	background-image:url('img/bg-brown-dots.png');
 	background-size: auto 7.5px;
 }
+.bg-purple-dots{
+	background-image:url('img/bg-purple-dots.png');
+	background-size: auto 7.5px;
+}
+
 
 section{
 	padding:3em 0;
@@ -573,6 +578,7 @@ DETAILS
 */
 #deets{
 	color:#fff;
+	padding: 3em 0 0;
 }
 #deets .gutter{
 	width:240px;
@@ -643,6 +649,23 @@ DETAILS
 	#deets #map{
 		background:url('img/map.jpg') center 33% no-repeat;
 	}
+}
+
+/*
+	
+	
+REGISTER
+
+
+*/
+#register{
+	color:#fff;
+}
+#register h2{
+	color:#fee852;	
+}
+#register h1{
+	color:#fff;	
 }
 
 

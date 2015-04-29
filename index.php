@@ -100,5 +100,15 @@
 		<img class="sr" src="" alt="A map showing the location of Bespoke on Market Street between fourth and fifth streets.">
 	</div>
 </section>
+<!-- register -->
+<section class="bg-dark-purple bg-purple-dots" id="register">
+	<div class="bg-dark-purple container">
+		<div class="gutter">
+			<h2>04</h2>
+			<h1>Registration</h1>
+			<tito-widget event="opening-night-llc/layersclub"></tito-widget>
+		</div>
+	</div>
+</section>
 
 <?php get_footer(); ?>

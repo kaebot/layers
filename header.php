@@ -39,6 +39,7 @@
 	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7392354/732768/css/fonts.css" />
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	<script src='https://js.tito.io/v1' async></script>
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
