@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<!-- hero -->
 <section class="bg-yellow" id="hero">
 	<div class="container">
 		<div class="gutter">
@@ -15,6 +16,7 @@
 		<h2>A new design conference for the Mac+iOS community</h2>
 	</div>
 </section>
+<!-- nav -->
 <nav>
 	<div class="container">
 		<div class="top content">
@@ -39,7 +41,7 @@
 		<a href="#register">Enough Already, Sign Me Up</a>		
 	</div>
 </section>
-
+<!-- presenters -->
 <section class="bg-yellow bg-brown-dots" id="presenters">
 	<div class="container">
 		<div class="gutter">
@@ -79,6 +81,23 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<!-- details -->
+<section class="bg-purple" id="deets">
+	<div class="container">
+		<div class="bg-dark-purple gutter">
+			<h2>03</h2>
+			<h1>The Deets</h1>
+			<p>Just 2 blocks from WWDC, we're just steps away from cool hotels, awesome restaurants, and top-notch nightlife.</p>
+		</div>
+		<div class="content">
+			<h1>Bespoke</h1>
+			<p>Westfield San Francisco Centre<br>845 Market Street, San Francisco<br>Level 4 / Under the Dome</p>
+		</div>
+	</div>
+	<div id="map">
+		<img class="sr" src="" alt="A map showing the location of Bespoke on Market Street between fourth and fifth streets.">
 	</div>
 </section>
 
