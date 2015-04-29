@@ -461,6 +461,9 @@ WHAT
 	#what{
 		margin:-1.5em 0 0 0;
 	}
+	#what p{
+		font-size: 1.25em;
+	}
 	#what .container{
 		background: -moz-linear-gradient(top, rgba(254,232,82,1) 30%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 30%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,rgba(254,232,82,1)), color-stop(20%,rgba(255,255,255,0)), color-stop(20%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
@@ -609,3 +612,48 @@ DETAILS
 	height:50vh;
 	z-index: 100;
 }
+@media screen and (min-width:640px){
+	#deets .container{
+
+	}
+	#deets .gutter{
+		width:320px;
+		padding:1em;
+		margin:0 auto;
+		position: relative;
+		left:-1em;
+	}
+	#deets .gutter p {
+		margin: 1.5em 0 3em;
+		font-size: 1.25em;
+		width: 166%;
+	}
+	#deets .content{
+		clear:both;
+		width:100%;
+	}
+	#deets .content h1{
+		margin: -10px 0 10px;
+	}
+	#deets .content p {
+		margin: 2em 0 4em;
+	}
+}
+@media screen and (min-width:1900px){
+	#deets #map{
+		background:url('img/map.jpg') center 33% no-repeat;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
