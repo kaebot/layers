@@ -58,6 +58,16 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
+			<div class="presenter alt">
+				<div class="portrait">
+					<img src="<?php bloginfo('template_directory'); ?>/img/hs-maja.jpg" alt="A portrait of Maja.">
+				</div>
+				<div class="bio">
+					<h1>Maja Henderson</h1>
+					<h2>Square</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
 			<div class="presenter">
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/hs-maja.jpg" alt="A portrait of Maja.">
