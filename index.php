@@ -50,6 +50,8 @@
 		</div>
 		<div class="bg-yellow content">
 			<h3>Seriously, look at these people</h3>
+			
+			<!-- left presenter -->
 			<div class="presenter">
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/hs-maja.jpg" alt="A portrait of Maja.">
@@ -60,6 +62,8 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
+			
+			<!-- right presenter -->
 			<div class="presenter alt">
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/hs-maja.jpg" alt="A portrait of Maja.">
@@ -70,6 +74,8 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
+			
+			<!-- left presenter -->
 			<div class="presenter">
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/hs-maja.jpg" alt="A portrait of Maja.">
@@ -121,7 +127,7 @@
 		</div>
 		<div class="content">
 			<h3>Brought to you by<br>Jessie, Elaine & Adobe</h3>
-			<div class="presenter">
+			<div class="presenter">	
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/hs-maja.jpg" alt="A portrait of Maja.">
 				</div>

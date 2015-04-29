@@ -217,11 +217,11 @@ a{
 	text-decoration: none;
 	color:black;
 	font-weight: 400;
-	font-family: 'Verlag A', 'Verlag B','Oswald', sans-serif;
+	font-family: 'Gotham A', 'Gotham B', 'Verlag A', 'Verlag B','Oswald', sans-serif;
 }
 .gutter h2{
 	font-size: .75em;
-	font-family: 'Verlag A', 'Verlag B','Oswald', sans-serif;
+	font-family: 'Gotham A', 'Gotham B', 'Verlag A', 'Verlag B','Oswald', sans-serif;
 }
 .gutter h1{
 	font-size: 1em;
@@ -268,7 +268,7 @@ HERO
 	background-size: auto 25%;
 	width:100%;
 	max-width: 30em;
-	font-family: 'Verlag A', 'Verlag B','Oswald', sans-serif;
+	font-family: 'Gotham A', 'Gotham B', 'Verlag A', 'Verlag B','Oswald', sans-serif;
 	font-weight:800;
 	font-style: normal;
 	font-size: 2em;
@@ -509,7 +509,7 @@ PRESENTERS
 	width:100%;
 }
 .presenter h1{
-	font-family: 'Verlag A', 'Verlag B','Oswald', sans-serif;
+	font-family: 'Gotham A', 'Gotham B', 'Verlag A', 'Verlag B','Oswald', sans-serif;
 	font-weight: 800;
 	font-size: 1em;
 }
@@ -603,7 +603,7 @@ DETAILS
 	position: relative;
 }
 #deets .content h1{
-	font-family: 'Verlag A', 'Verlag B','Oswald', sans-serif;
+	font-family: 'Gotham A', 'Gotham B', 'Verlag A', 'Verlag B','Oswald', sans-serif;
 	font-weight: 800;
 	font-size: 1em;
 }
