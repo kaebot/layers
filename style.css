@@ -351,6 +351,7 @@ HERO
 	}
 	#hero h2{
 		top:-2.5em;
+		margin: 0 0 0 .5em;
 	}
 }
 
@@ -487,6 +488,7 @@ PRESENTERS
 }
 #presenters .content h3{
 	color:#d0a401;
+	margin: 0 0 1em 0;
 }
 #presenters .portrait,#presenters .portrait img{
 	width:100%;
