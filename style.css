@@ -290,19 +290,19 @@ HERO
 .hero-detail{
 	height:100%;
 	display: inline-block;
-	font-size: .5em;
-	line-height: 2.5em;
+	font-size: .75em;
+	line-height: 1.7em;
 	padding: 0 1em;
 }
 #hero-city{
-	float: left;	
-	width:64%;
-	border-right:2px solid #2c2530;
+	float: right;
+	width:35%;
 }
 
 #hero-dates{
-	float: right;
-	width:34%;
+	float: left;
+	width:65%;
+	border-right:2px solid #2c2530;
 }
 
 #hero h2{
@@ -342,7 +342,7 @@ HERO
 		top: 1.15em;
 	}
 	#hero-info{
-		width:9.5em;
+		width:10em;
 		height: 2em;
 		position: relative;
 		top: -2.25em;
@@ -350,16 +350,14 @@ HERO
 
 	.hero-detail{
 		line-height: 1.25em;
+		padding-top: 0.55em;
 	}
-	#hero-city{
-		width:75%;
-		padding-top: 1.25em;
+	#hero-dates{
+		width:65%;
 	}
 	
-	#hero-dates{
-		width:24%;
-		position: relative;
-		top: .66em;
+	#hero-city{
+		width:35%;		
 	}
 	#hero h2{
 		top:-2.5em;
@@ -395,6 +393,7 @@ nav{
 		display: block;
 		position: relative;
 		top: -1em;
+		visibility: hidden
 	}
 	a.nav-button{
 		background:none;
@@ -451,7 +450,7 @@ WHAT
 	padding:.5em 0;
 	border:2px solid #2c2530;
 	text-align: center;
-	width:260px;
+	width:275px;
 	margin: 0 auto;
 	background: #fee852;
 	color:#2c2530;
@@ -609,6 +608,11 @@ DETAILS
 }
 #deets .content p{
 	text-transform: none;
+}
+#deets .container p.microdeets{
+	text-transform: none;
+	font-size: 0.75em;
+	margin: -4em 0 0 0;
 }
 #deets #map{
 	background:url('img/map.jpg') center center no-repeat;

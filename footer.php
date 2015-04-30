@@ -3,8 +3,8 @@
 	</div>
 
 	<?php wp_footer(); ?>
-	
-	<!-- Don't forget analytics -->
+	<script src="<?php bloginfo('template_directory'); ?>/js/js_behavior.js"></script>
+	<!-- analytics -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,6 +14,7 @@
 	  ga('create', 'UA-61756500-1', 'auto');
 	  ga('send', 'pageview');	
 	</script>
+
 </body>
 
 </html>
