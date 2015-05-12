@@ -422,12 +422,6 @@ nav{
 }
 #hero-logo.scroll-to-fixed-fixed{
 	z-index: 1100;
-	display:none;
-}
-@media screen and (min-width:640px){
-	#hero-logo.scroll-to-fixed-fixed{
-		display: block;
-	}
 }
 
 /*
@@ -726,48 +720,22 @@ input{
 	border: 2px solid #2c2530;
 	border-radius:0px;
 }
-.tito-submit,.tito-discount-apply-button{
+.tito-submit{
 	width: 100%;
 	-webkit-appearance: none;
 	font-size: 1em;
 	border: 2px solid #2c2530;
 	background: #fee852;
 	padding: .25em;
-	margin: .25em 0 .5em;
 	text-transform: uppercase;
 	font-family: 'Verlag A','Verlag B';
 }
-.tito-submit:hover,.tito-discount-apply-button:hover{
+.tito-submit:hover{
 	cursor:pointer;
 	background: #FFF;
 }
 span.tito-badge-link{
 	font-size: .5em;
-}
-/* discount title */
-#tito-opening-night-llc-layersclub-1-show-discount-code a{
-	color:#d0a401;
-	font-family: 'Oswald',sans-serif;
-}
-/* discount field */
-#tito-tito-opening-night-llc-layersclub-1-discount-code-field{
-	width:59%;
-	font-size: .66em;
-	text-transform: uppercase;
-	padding: 3px 4px 4px;
-	float:left;
-}
-.tito-discount-code-field,.tito-discount-apply-button{
-
-}
-.tito-discount-apply-button{
-	width:39%;
-	float:right;
-	font-size: .66em;
-	margin: 0;
-}
-.tito-discount-code-label{
-	display: none;
 }
 
 /*
@@ -856,12 +824,7 @@ ABOUT
 
 /*footer*/
 footer{
-	font-size: .4em;
-}
-@media screen and (min-width:640px){
-	footer{
-		font-size: .5em;
-	}
+	font-size: .5em;
 }
 
 
