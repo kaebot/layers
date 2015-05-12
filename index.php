@@ -13,7 +13,9 @@
 			<p aria-hidden="true" class="hero-detail" id="hero-city">SF, CA</p>
 			<p class="sr">San Francisco, California</p>
 		</div>
-		<h2>A new design conference for the Mac+iOS community</h2>
+		<h2>A new design conference for the Mac+iOS community
+			
+		</h2>
 	</div>
 </section>
 <!-- nav -->
@@ -35,7 +37,7 @@
 			<h1>What</h1>
 		</div>
 		<div class="content">
-			<p>A 3-day conference to talk about design,<br>celebrate our industry,<br>and eat snacks.</p>
+			<p>A 3-day conference during WWDC to talk about design, celebrate our industry,<br>and eat snacks.</p>
 			<p>Like a party,<br>but for learning.</p>
 		</div>
 		<a href="#register">Enough Already, Sign Me Up</a>		
@@ -49,7 +51,7 @@
 			<h1>Presenters</h1>
 		</div>
 		<div class="bg-yellow content">
-			<h3>Seriously, look at these people.</h3>
+			<h3>Seriously, look at these people</h3>
 			
 			<!-- left presenter -->
 			<div class="presenter">
@@ -142,6 +144,19 @@
 			<!-- right presenter -->
 			<div class="presenter alt">
 				<div class="portrait">
+					<img src="<?php bloginfo('template_directory'); ?>/img/MayliKhoeBW.png" alt="A portrait of May-li Khoe.">
+				</div>
+				<div class="bio">
+					<h1>May-li Khoe</h1>
+					<h2>Khan Academy</h2>
+					<p>May-Li invents new ways for humans to interact with computers by learning about people, sculpting pixels, and playing with code. She joined Khan Academy last fall to lead mobile and experimental design, and is exploring ideas to empower learners through curiosity, creativity, and play. Previously, while at Apple, she designed and prototyped UI concepts that pushed hardware innovations such as Force Touch, the Taptic Engine, face tracking, multi-touch, location tracking and more. May-Li enjoys dancing, DJing, dancing while DJing, blurring the line between art and computer science, and daydreaming about joyful ways to subvert the status quo. </p>
+				</div>
+			</div>
+
+			
+			<!-- left presenter -->
+			<div class="presenter">
+				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/GabeLevineBW.png" alt="A portrait of Gabe Levine.">
 				</div>
 				<div class="bio">
@@ -151,8 +166,8 @@
 				</div>
 			</div>
 			
-			<!-- left presenter -->
-			<div class="presenter">
+			<!-- right presenter -->
+			<div class="presenter alt">
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/AdamLisagorBW.png" alt="A portrait of Adam Lisagor.">
 				</div>
@@ -163,8 +178,8 @@
 				</div>
 			</div>
 			
-			<!-- right presenter -->
-			<div class="presenter alt">
+			<!-- left presenter -->
+			<div class="presenter">
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/MerlinMannBW.png" alt="A portrait of Merlin Mann.">
 				</div>
@@ -174,6 +189,19 @@
 					<p>Merlin Mann is an independent writer and broadcaster best known as the creator of 43folders.com and Inbox Zero. These days, he busies himself as the co-host of *Back to Work* and *Roderick on the Line*. Merlin lives in the outside lands of San Francisco, where the climate is foggy, the pork xiu mai is plentiful, and his outstanding wife and daughter are within arm’s reach.</p>
 				</div>
 			</div>
+			
+			<!-- right presenter -->
+			<div class="presenter alt">
+				<div class="portrait">
+					<img src="<?php bloginfo('template_directory'); ?>/img/MikeMonteiroBW.png" alt="A portrait of Mike Monteiro.">
+				</div>
+				<div class="bio">
+					<h1>Mike Monteiro</h1>
+					<h2>Mule Design</h2>
+					<p>Mike Monteiro is the co-founder of <a href="http://www.muledesign.com">Mule</a>, a design agency renowned for exploring those dark territories where content strategy, online identity, and cutting-edge web technology with classic, timeless design blend together. Mike has written <a href="http://abookapart.com/products/design-is-a-job">Design Is a Job</a> to help designers, and <a href="http://abookapart.com/products/youre-my-favorite-client">You’re My Favorite Client</a> to help clients.</p>
+				</div>
+			</div>
+
 			
 			<!-- left presenter -->
 			<div class="presenter">
@@ -198,21 +226,35 @@
 					<p>Neven Mrgan is a designer at Panic Inc, makers of nice apps for Mac and iOS. After hours, he is also one half of Big Bucket Software, a game company you may know from their hit The Incident. He designs apps, websites, games, T-shirts, signage—anything that needs designing. Neven lives in Portland, where he spends the last little bits of his free time on cooking and reading.</p>
 				</div>
 			</div>
-			
+
 			<!-- left presenter -->
 			<div class="presenter">
+				<div class="portrait">
+					<img src="<?php bloginfo('template_directory'); ?>/img/JaimeeNewberryBW.png" alt="A portrait of Jaimee Newberry.">
+				</div>
+				<div class="bio">
+					<h1>Jaimee Newberry</h1>
+					<h2>Swingset</h2>
+					<p>Jaimee is a 17-year veteran UX and Interface Designer and certified coach. She is an advisor for Fortune 500 companies, enterprise software firms, agencies, non-profits, and startups that wish to improve the human and product interactions within their organization and with their various audiences. 
+
+Across her career, she's worked with remarkable companies like Black Pixel, Zappos, Barnes&Noble, Audi, Apple, McDonalds, Nintendo, Disney and many more.</p>
+				</div>
+			</div>
+			
+			<!-- right presenter -->
+			<div class="presenter alt">
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/AshleyNelsonHornsteinBW.png" alt="A portrait of Ashley Nelson-Hornstein.">
 				</div>
 				<div class="bio">
 					<h1>Ashley Nelson-Hornstein</h1>
 					<h2>Dropbox</h2>
-					<p>Ashley Nelson-Hornstein is an iOS developer at Dropbox. She fell in love with the iOS platform at Apple, and later developed a passion for crafting intuitive user interfaces as a lead at a news startup named Circa. When not driving new features or advocating for accessibility at Dropbox, Ashley enjoys reading, weightlifting, and trying really hard not to let her blog go stale.</p>
+					<p>Ashley Nelson-Hornstein is an iOS developer at Dropbox. She fell in love with the iOS platform at Apple, and later developed a passion for crafting intuitive user interfaces as a lead at a news startup named Circa. When not driving new features or advocating for accessibility at Dropbox, Ashley enjoys reading, weightlifting, and trying really hard not to let her <a href="http://blog.ashleynh.me">blog</a> go stale.</p>
 				</div>
 			</div>
 			
-			<!-- right presenter -->
-			<div class="presenter alt">
+			<!-- left presenter -->
+			<div class="presenter">
 				<div class="portrait">
 					<img src="<?php bloginfo('template_directory'); ?>/img/OisinPrendivilleBW.png" alt="A portrait of Oisin Prendiville.">
 				</div>
@@ -222,6 +264,19 @@
 					<p>Oisín is an iOS/Mac developer from Dublin, Ireland. He is one half of Supertop, the duo behind apps like Castro, Unread, and Tokens. He tends to spend weeks at a time getting hung up on animations and custom UI controls.</p>
 				</div>
 			</div>
+			
+			<!-- right presenter -->
+			<div class="presenter alt">
+				<div class="portrait">
+					<img src="<?php bloginfo('template_directory'); ?>/img/LauraSavinoBW.png" alt="A portrait of Laura Savino.">
+				</div>
+				<div class="bio">
+					<h1>Laura Savino</h1>
+					<h2>Khan Academy</h2>
+					<p>Laura is an iOS developer with a penchant for languages, travel, and education. She taught English in rural Korea and French in the environs of Microsoft before cutting her teeth as a mobile developer at an agency in Seattle. She’s now working to transform learning by building iOS apps at Khan Academy.</p>
+				</div>
+			</div>
+
 			
 			<!-- left presenter -->
 			<div class="presenter">
@@ -256,15 +311,13 @@
 				<div class="bio">
 					<h1>Shahrouz Tavakoli</h1>
 					<h2>Pinterest</h2>
-					<p>Shahrouz is an interface and production designer at Pinterest. Shortly after college, Shahrouz started his career in advertising as a print and web designer. He has worked as a production designer at Apple and Square, where he worked with Brad Ellis and Louie Mantia. After Square he worked at Pacific Helm for a year and half before leaving to join Pinterest where he works on the monetization team.</p>
+					<p>Shahrouz is a product designer at Pinterest. Shortly after college, Shahrouz started his career in advertising as a print and web designer. He has worked as a production designer at Apple and Square, where he worked with Brad Ellis and Louie Mantia. After Square he worked at Pacific Helm for a year and half before leaving to join Pinterest where he works on the monetization team.</p>
 				</div>
 			</div>
 						
 			<!-- right presenter -->
 			<div class="presenter alt">
-				<div class="portrait">
-					<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="A portrait of the logo.">
-				</div>
+				
 				<div class="bio">
 					<h1>More coming soon!</h1>
 				</div>
@@ -280,7 +333,7 @@
 			<h2>03</h2>
 			<h1>The Deets</h1>
 				<p>June 8-10, 2015</p>
-				<p class="microdeets">Layers is a 3-day design conference taking place in San Francisco June 9-10 at the same time as WWDC. It’s an opportunity to come together in downtown San Francisco during the biggest Apple developer event, experience meaningful and entertaining content dedicated to design, and meet industry peers. Passes to the conference are $850 (transferable but non-refundable) which will allow you access to all conference events. Transportation, lodging, and meals must be provided separately.</p>
+				<p class="microdeets">Layers is a 3-day design conference taking place in San Francisco June 8-10 at the same time as WWDC. It’s an opportunity to come together in downtown San Francisco during the biggest Apple developer event, experience meaningful and entertaining content dedicated to design, and meet industry peers. Passes to the conference are $850 (transferable but non-refundable) which will allow you access to all conference events. Transportation, lodging, and meals must be provided separately.</p>
 			<p>Just 2 blocks from WWDC, we're just steps away from cool hotels, awesome restaurants, and top-notch nightlife.</p>
 				
 		</div>
@@ -330,7 +383,7 @@
 				</div>
 				<div class="bio">
 					<h1>Elaine Pow</h1>
-					<p>Elaine is a design enthusiast whose time in retail and marketing has been all about making you want to buy things. She’s worked for a handful of retailers you’ve probably visited at the mall and at One Infinite Loop she defined global visual merchandising standards (made things look great) for Apple retail and the in-store iPhone launch. These days Elaine walks the line between optimist and realist as a retail and brand development consultant.</p>
+					<p>Elaine is a design enthusiast whose retail and marketing career has been all about making you want to buy things. She’s worked for a handful of retailers you’ve probably visited at the mall and at One Infinite Loop she defined global visual merchandising standards (made things look great) for Apple retail and the in-store iPhone launch. These days Elaine walks the line between optimist and realist as a retail and brand development consultant.</p>
 				</div>
 			</div>
 			<div class="presenter">

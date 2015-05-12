@@ -1,11 +1,11 @@
 
 
-	<footer class="bg-squares">
-		<div class="bg-yellow container">
-				<h1>Opening Night, LLC<br>
-				<a href="http://twitter.com/bringyourlayers">@bringyourlayers</a><br>
-				<a href="mailto:info@bringyourlayers.com">info@bringyourlayers.com</a><br>
-				<p>Website by Grayson Yokota and Michaela McCann</p>
+	<footer class="bg-dark-purple">
+		<div class="container">
+				<p>Layers Conference 2015</p>
+				<p>Connect with us:</p>
+				<a href="http://twitter.com/bringyourlayers">@bringyourlayers</a>
+				<a href="mailto:info@bringyourlayers.com">info@bringyourlayers.com</a>
 		</div>
 	</footer>
 	

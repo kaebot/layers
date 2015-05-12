@@ -856,11 +856,26 @@ ABOUT
 
 /*footer*/
 footer{
-	font-size: .4em;
+	font-size: .5em;
+	color:#FFF;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+footer p{
+	font-family: 'Oswald', sans-serif;
+	text-transform: none;
+}
+footer a{
+	color:#fee852;
 }
 @media screen and (min-width:640px){
-	footer{
-		font-size: .5em;
+	footer .container{
+		width: 100%;
+		max-width: 100%;
+	}
+	footer p,footer a{
+		padding:0 .5em;
+		display: inline-block;
 	}
 }
 
